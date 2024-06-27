@@ -1,0 +1,8 @@
+FROM python:3.12
+LABEL maintainer = "Osama"
+COPY . /code/
+WORKDIR /code
+RUN pip install poetry
+RUN poetry config virtualenvs.create false
+RUN poetry install
+CMD ["poetry", "run", "uvicorn", "todo_api.main:app", "--reload"]
