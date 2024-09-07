@@ -10,6 +10,7 @@ python = "^3.12"
 uvicorn = "^0.29.0"
 fastapi = "^0.111.0"
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+types-python-jose = "^3.3.4.20240106"
 
 
 [build-system]

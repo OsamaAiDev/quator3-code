@@ -1,3 +1,18 @@
+# List methods
+# Insert
+#  Copy
+# Count
+# clear
+# remove
+# index
+# reverse
+# sort
+# del 
+# pop
+#append
+# exptend
+
+
 from typing import Any, List
 
 numbers: List[Any] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

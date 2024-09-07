@@ -29,11 +29,11 @@ new_list: List[int] = [i+10 for i in creator()]
 # is tarha sa efficient memory manage ho ge jb chahia tb he generate kro
 
 # ya ek generator obj return krta ha
-# def generator_no() -> Generator[int, None, None]:
-#     i: int = 1
-#     while i <= 200:
-#         yield i
-#         i += 1
+def generator_no2() -> Generator[int, None, None]:
+    i: int = 1
+    while i <= 200:
+        yield i
+        i += 1
 def generator_no() -> Iterator[int]:
     i: int = 1
     while i <= 200:
@@ -106,7 +106,7 @@ func is lia is ko ek variable ko assign kr dia ha or hm variable call kr sakta h
 # print(divider(9))
 
 
-# the func that pass an argumenet to another func called high order func and the func that accept it as an argument called
+# the func that pass an argumenet to another func called callback func and the func that accept it as an argument called
 # higher order func
 
 """
@@ -122,7 +122,7 @@ def greet_me(name: str, callbackfunc)->None:
     greeting: str = callbackfunc(name)
     print(greeting)
 
-# greet_me("osama", tone_inspired)
+greet_me("osama", tone_inspired)
 
 # map example
 # map func takes two things callback func and an input 

@@ -11,9 +11,7 @@
 # Another way to use ipnynb
 
 # print("Hello World")
-
 name = "Osama"
-
 print(name)
 
 # print type of var

@@ -7,6 +7,7 @@ import re
 
 # age: int = 27
 
+
 # qualification: str = "BSE Computer Science"
 
 # # \ means line continue next logic is on new line we can't write any words after \ otherwise error
@@ -83,3 +84,12 @@ my name is osama \
 this is my message"
 
 print(message3)
+
+code: str = """
+print("Hello World")
+no1: int = 1
+no2: int = 2
+print(no1 + no2)
+"""
+
+exec(code)

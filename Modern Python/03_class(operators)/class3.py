@@ -1,5 +1,3 @@
-import pandas as pd
-
 # return the ascii code of the char
 
 # print(ord("a"))
@@ -31,18 +29,20 @@ import pandas as pd
 #     print("hello")
 
 # identity operator
-# is operator check krta ha backend pr dono varibale ka memnory same hn?
-# a : str = "abc"
-# b : str = "abc"
+# is op+erator check krta ha backend pr dono varibale ka memnory same hn?
+a : str = "abc"
+b : str = "abc"
 
-# print(a is b)
+print(a is b)
 
 
 # python membership operator
 
-names : list[str] = [chr(i) for i in range(65, 91) ]
+# names : list[str] = [chr(i) for i in range(65, 91) ]
 
-# print(names[0])
+# print(names)
+print(list(range(1,10)))
+
 
 # In python we use PEMDAS rule
 
@@ -64,3 +64,4 @@ my_scores: tuple[int, int, int] = (12, 21, 22)
 # print("a" * 3)
 
 print("osama" * 3)
+# print("osama"*"osama") # error

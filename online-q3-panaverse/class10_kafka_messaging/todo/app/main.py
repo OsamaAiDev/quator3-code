@@ -1,8 +1,8 @@
 # main.py
 from contextlib import asynccontextmanager
-from typing import Union, Optional, Annotated
+from typing import Optional, Annotated
 from app import settings
-from sqlmodel import Field, Session, SQLModel, create_engine, select, Sequence
+from sqlmodel import Field, Session, SQLModel, create_engine, select
 from fastapi import FastAPI, Depends
 from typing import AsyncGenerator
 from aiokafka import AIOKafkaProducer, AIOKafkaConsumer
